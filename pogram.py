@@ -1,9 +1,9 @@
 
 vaken = "n"
-print("du sover djupt som björnen i ide...")
+print("du sover djupt som björnen i ide...") # vi ställer frågan 
 
-while vaken == "n":
-    vaken = input("Vaknar du?[y/n]: ").lower()
+while vaken == "n": #vi ger vaken nu värdet n 
+    vaken = input("Vaknar du?[y/n]: ").lower() #nu fpr man 2 altenativ om man väljer n så loopas det och det börjar om men om man skriver y så går pogramet vidare.
 
 print("du yeetar dig upp och springer in i duschen")
 
